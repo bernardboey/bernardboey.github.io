@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bernard Boey</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/full-slider.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<style type="text/css">
+body {
+	padding-top: 50px;
+}
+@media (max-width: 800px) {
+	body {
+		padding-top: 0px;
+	}
+}
+@media (max-width: 400px) { 
+        .navbar-brand {
+          font-size: 14px;
+        }
+		h2 {
+			font-size: 18px;
+		}
+		.carousel-caption {
+			padding-bottom: 60px;
+		}
+        .breadcrumbtext {
+            font-size: 10px;
+        }
+        .categorytext {
+            font-size: 20px!important;
+        }
+}
+@media (max-width: 800px) and (min-width: 401px) { 
+        .navbar-brand {
+          font-size: 14px;
+        }
+		h2 {
+			font-size: 18px;
+		}
+		.carousel-caption {
+			padding-bottom: 40px;
+		}
+        .breadcrumbtext {
+            font-size: 14px;
+        }
+        .categorytext {
+            font-size: 24px!important;
+        }
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	pointer-events:none;
+}
+.sContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.fill2 :hover {
+    opacity: 0.85;
+}
+@media (max-width: 1000px) and (min-width: 801px) {
+  .breadcrumbtext {
+            font-size: 16px;
+    }
+}
+@media (max-width: 1000px) and (min-width: 601px) {
+  body {
+    padding-top: 40px;
+  }
+}
+@media (min-width: 601px) {
+    #popupbottom {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    #popuptop {
+        display: none;
+    }
+    body {
+        padding-top: 60px;
+    }
+    .thumbnailmargin {
+        margin-left: 4px!important;
+        margin-right: 4px!important;
+    }
+    .thumbnail {
+        margin-top: 4px!important;
+        margin-bottom: 4px!important;
+        padding: 2px!important;
+        border-radius: 2px!important;
+    }
+}
+</style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Bernard Boey</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programming <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="programming.html">Projects</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="breathe-with-me.html">Breathe With Me</a></li>
+                            <li><a href="mail-merge.html">Mail Merge</a></li>
+                            <li><a href="pr5-booking.html">PR5 Booking</a></li>
+                            <li><a href="htd-reminder.html">HTD Reminder</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Photography & Videography <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="photography.html">Portfolio</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="landscape.html">Landscape</a></li>
+                            <li><a href="misc.html">Misc</a></li>
+                            <li><a href="videography.html">Videography</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+	<div style="margin:auto;margin-top:30px;">
+		<div class="row" style="margin:auto;text-align:center">
+			<div style="display:inline-block;position:relative;width:100%">
+			<a href="programming.html" class="fill2">
+				<div class="thumbnailmargin" style="width:40%; display: inline-block; position: relative; min-width:300px; margin-left:10px; margin-right:10px;">
+					<div class="thumbnail">
+						<img src="images/Programming.jpg" alt="Programming">
+						<div class="centered"><h2 class="categorytext" style="color:white;font-size:xx-large;text-shadow: 2px 2px 4px #000000;">Programming Projects</h2></div>
+
+					</div>
+				</div>
+			</a>
+			<a href="photography.html" class="fill2">
+				<div class="thumbnailmargin" style="width:40%; display: inline-block; position: relative; min-width:300px; margin-left:10px; margin-right:10px;">
+					<div class="thumbnail">
+						<img src="images/Photography.jpg" alt="Photography">
+						<div class="centered"><h2 class="categorytext" style="color:white;font-size:xx-large;text-shadow: 2px 2px 4px #000000;">Photography & Videography</h2></div>
+					</div>
+				</div>
+			</a>
+			</div>
+		</div>
+	</div>
+</body>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile.custom.min.js"></script>  
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+</html>
